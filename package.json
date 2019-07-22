@@ -3,13 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0",
+    "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "tailwindcss": "^1.0.5"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build:css": "postcss src/styles/index.css -o src/index.css",
+    "watch:css": "postcss src/styles/index.css -o src/index.css -w",
+    "start": "npm run watch:css & react-scripts start",
+    "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -27,5 +40,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "postcss-cli": "^6.1.3"
   }
 }

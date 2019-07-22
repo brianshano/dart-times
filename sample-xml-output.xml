@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfObjStationData xmlns="http://api.irishrail.ie/realtime/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E846</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Greystones</Origin>
+      <Destination>Malahide</Destination>
+      <Origintime>21:34</Origintime>
+      <Destinationtime>23:00</Destinationtime>
+      <Status>En Route</Status>
+      <Lastlocation>Departed Bray</Lastlocation>
+      <Duein>14</Duein>
+      <Late>0</Late>
+      <Exparrival>22:02</Exparrival>
+      <Expdepart>22:02</Expdepart>
+      <Scharrival>22:01</Scharrival>
+      <Schdepart>22:02</Schdepart>  
+      <Direction>Northbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E947</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Bray</Origin>
+      <Destination>Howth</Destination>
+      <Origintime>22:00</Origintime>
+      <Destinationtime>23:15</Destinationtime>
+      <Status>No Information</Status>
+      <Lastlocation />
+      <Duein>29</Duein>
+      <Late>0</Late>
+      <Exparrival>22:16</Exparrival>
+      <Expdepart>22:17</Expdepart>
+      <Scharrival>22:16</Scharrival>
+      <Schdepart>22:17</Schdepart>
+      <Direction>Northbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E847</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Greystones</Origin>
+      <Destination>Malahide</Destination>
+      <Origintime>22:17</Origintime>
+      <Destinationtime>23:31</Destinationtime>
+      <Status>No Information</Status>
+      <Lastlocation />
+      <Duein>46</Duein>
+      <Late>0</Late>
+      <Exparrival>22:33</Exparrival>
+      <Expdepart>22:34</Expdepart>
+      <Scharrival>22:33</Scharrival>
+      <Schdepart>22:34</Schdepart>
+      <Direction>Northbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E948</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Bray</Origin>
+      <Destination>Howth</Destination>
+      <Origintime>22:30</Origintime>
+      <Destinationtime>23:46</Destinationtime>
+      <Status>No Information</Status>
+      <Lastlocation />
+      <Duein>59</Duein>
+      <Late>0</Late>
+      <Exparrival>22:46</Exparrival>
+      <Expdepart>22:47</Expdepart>
+      <Scharrival>22:46</Scharrival>
+      <Schdepart>22:47</Schdepart>
+      <Direction>Northbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E848</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Greystones</Origin>
+      <Destination>Malahide</Destination>
+      <Origintime>22:34</Origintime>
+      <Destinationtime>00:01</Destinationtime>
+      <Status>No Information</Status>
+      <Lastlocation />
+      <Duein>74</Duein>
+      <Late>0</Late>
+      <Exparrival>23:01</Exparrival>
+      <Expdepart>23:02</Expdepart>
+      <Scharrival>23:01</Scharrival>
+      <Schdepart>23:02</Schdepart>
+      <Direction>Northbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E949</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Bray</Origin>
+      <Destination>Howth</Destination>
+      <Origintime>23:00</Origintime>
+      <Destinationtime>00:13</Destinationtime>
+      <Status>No Information</Status>
+      <Lastlocation />
+      <Duein>89</Duein>
+      <Late>0</Late>
+      <Exparrival>23:16</Exparrival>
+      <Expdepart>23:17</Expdepart>
+      <Scharrival>23:16</Scharrival>
+      <Schdepart>23:17</Schdepart>
+      <Direction>Northbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E131</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Howth</Origin>
+      <Destination>Greystones</Destination>
+      <Origintime>21:00</Origintime>
+      <Destinationtime>22:26</Destinationtime>
+      <Status>En Route</Status>
+      <Lastlocation>Departed Salthill and Monkstown</Lastlocation>
+      <Duein>6</Duein>
+      <Late>-3</Late>
+      <Exparrival>21:53</Exparrival>
+      <Expdepart>21:54</Expdepart>
+      <Scharrival>21:56</Scharrival>
+      <Schdepart>21:57</Schdepart>
+      <Direction>Southbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E260</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Malahide</Origin>
+      <Destination>Bray</Destination>
+      <Origintime>21:15</Origintime>
+      <Destinationtime>22:30</Destinationtime>
+      <Status>En Route</Status>
+      <Lastlocation>Departed Grand Canal Dock</Lastlocation>
+      <Duein>22</Duein>
+      <Late>-2</Late>
+      <Exparrival>22:10</Exparrival>
+      <Expdepart>22:10</Expdepart>
+      <Scharrival>22:11</Scharrival>
+      <Schdepart>22:12</Schdepart>
+      <Direction>Southbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E132</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Howth</Origin>
+      <Destination>Greystones</Destination>
+      <Origintime>21:30</Origintime>
+      <Destinationtime>22:56</Destinationtime>
+      <Status>En Route</Status>
+      <Lastlocation>Departed Killester</Lastlocation>
+      <Duein>39</Duein>
+      <Late>0</Late>
+      <Exparrival>22:26</Exparrival>
+      <Expdepart>22:27</Expdepart>
+      <Scharrival>22:26</Scharrival>
+      <Schdepart>22:27</Schdepart>
+      <Direction>Southbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E261</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Malahide</Origin>
+      <Destination>Bray</Destination>
+      <Origintime>21:45</Origintime>
+      <Destinationtime>23:01</Destinationtime>
+      <Status>En Route</Status>
+      <Lastlocation>Departed Malahide</Lastlocation>
+      <Duein>56</Duein>
+      <Late>1</Late>
+      <Exparrival>22:43</Exparrival>
+      <Expdepart>22:44</Expdepart>
+      <Scharrival>22:42</Scharrival>
+      <Schdepart>22:43</Schdepart>
+      <Direction>Southbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E133</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Howth</Origin>
+      <Destination>Greystones</Destination>
+      <Origintime>22:00</Origintime>
+      <Destinationtime>23:26</Destinationtime>
+      <Status>No Information</Status>
+      <Lastlocation />
+      <Duein>69</Duein>
+      <Late>0</Late>
+      <Exparrival>22:56</Exparrival>
+      <Expdepart>22:57</Expdepart>
+      <Scharrival>22:56</Scharrival>
+      <Schdepart>22:57</Schdepart>
+      <Direction>Southbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+   <objStationData>
+      <Servertime>2019-07-19T21:48:41.11</Servertime>
+      <Traincode>E262</Traincode>
+      <Stationfullname>Sandycove</Stationfullname>
+      <Stationcode>SCOVE</Stationcode>
+      <Querytime>21:48:41</Querytime>
+      <Traindate>19 Jul 2019</Traindate>
+      <Origin>Malahide</Origin>
+      <Destination>Bray</Destination>
+      <Origintime>22:15</Origintime>
+      <Destinationtime>23:30</Destinationtime>
+      <Status>No Information</Status>
+      <Lastlocation />
+      <Duein>84</Duein>
+      <Late>0</Late>
+      <Exparrival>23:11</Exparrival>
+      <Expdepart>23:12</Expdepart>
+      <Scharrival>23:11</Scharrival>
+      <Schdepart>23:12</Schdepart>
+      <Direction>Southbound</Direction>
+      <Traintype>DART</Traintype>
+      <Locationtype>S</Locationtype>
+   </objStationData>
+</ArrayOfObjStationData>
