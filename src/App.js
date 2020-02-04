@@ -152,12 +152,6 @@ function App() {
     setStationData(dartStations.objStation);
   }, []);
 
-  function determineUserScrollDepth() {
-    const scrolled =
-      document.documentElement.scrollTop || document.body.scrollTop;
-    setScrollDepth(scrolled);
-  }
-
   useEffect(() => {
     window.addEventListener('scroll', determineUserScrollDepth);
 
@@ -166,7 +160,13 @@ function App() {
     };
   });
 
-  function StationList() {
+  const determineUserScrollDepth = () => {
+    const scrolled =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    setScrollDepth(scrolled);
+  };
+
+  const StationList = () => {
     const ble = stationList.map((number, index) => {
       return (
         <div key={index}>
@@ -185,9 +185,9 @@ function App() {
       );
     });
     return ble;
-  }
+  };
 
-  function displayTimes() {
+  const displayTimes = () => {
     console.log('xx in here', stationInfo);
     const trainDeets = stationInfo.map(data => {
       console.log(`xx station: ${data.Direction} ${data.Exparrival}`);
@@ -200,7 +200,7 @@ function App() {
     });
     console.log(`xx return:`, trainDeets);
     return trainDeets;
-  }
+  };
 
   useEffect(() => {
     // Update the document title using the browser API
@@ -248,15 +248,15 @@ function App() {
   );
 }
 
-function Home() {
+const Home = () => {
   return (
     <div>
       <h2>Home</h2>
     </div>
   );
-}
+};
 
-function Glenageary() {
+const Glenageary = () => {
   useEffect(() => {
     // Update the document title using the browser API
     document.title = `Dart Times Glenageary`;
@@ -266,7 +266,7 @@ function Glenageary() {
       <h1>Glenageary</h1>
     </div>
   );
-}
+};
 
 function Lansdowne({ match }) {
   return (
@@ -294,12 +294,12 @@ function Lansdowne({ match }) {
   );
 }
 
-function Topic({ match }) {
+const Topic = ({ match }) => {
   return (
     <div>
       <h3>{match.params.topicId}</h3>
     </div>
   );
-}
+};
 
 export default App;
